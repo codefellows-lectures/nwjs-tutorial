@@ -14,5 +14,5 @@ _This tutorial is part of a follow-along lecture originally presented by Rick Pa
 2. Open repo in editor.
 3. Edit the package.json as follows: 
   - Append **`"start": "nw"`** to the scripts object.
-  ![package.json-line-8](https://cloud.githubusercontent.com/assets/12869788/15266821/9f4c779a-1965-11e6-9e92-140dd0a3b1e2.png)
+  ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)
 
