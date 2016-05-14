@@ -1,10 +1,10 @@
 {
-  "name": "nwjs",
+  "name": "nwjs-tutorial",
   "version": "0.1.0",
   "description": "nwjs tutorial!",
   "main": "index.html",
   "scripts": {
-    
+
   },
 	"window": {
     "title": "JSON to CSV",
