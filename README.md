@@ -11,9 +11,11 @@ _This tutorial is part of a follow-along lecture originally presented by Rick Pa
 - This part coming soon!  
 
 ## Converting this app:
+
 1. Fork and clone this repo  
 2. `cd nwjs-tutorial`
 3. Open in editor
+4. The following steps will walk through a typical app conersion process to be able to develop and test your app before bundling it up.  
   - Append **`"start": "nw"`** to the scripts object.  
 ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)  
 
