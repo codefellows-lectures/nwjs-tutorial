@@ -1,0 +1,32 @@
+{
+  "name": "nwjs",
+  "version": "0.1.0",
+  "description": "nwjs tutorial!",
+  "main": "index.html",
+  "scripts": {
+    
+  },
+	"window": {
+    "title": "JSON to CSV",
+    "toolbar": false,
+    "always-on-top": true,
+    "fullscreen": false,
+    "width": 700,
+    "height": 350,
+		"resizable": false,
+    "focus": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows-lectures/nwjs.git"
+  },
+  "keywords": [
+    "nwjs"
+  ],
+  "author": "rick@codefellows.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows-lectures/nwjs/issues"
+  },
+  "homepage": "https://github.com/codefellows-lectures/nwjs#readme"
+}
