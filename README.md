@@ -9,3 +9,9 @@ _This tutorial is part of a follow-along lecture originally presented by Rick Pa
 
 ## Downloading NW.js
 
+## Converting this app
+1. Fork and clone this repo.
+2. Open repo in editor.
+3. Edit package.json as follows:
+  -  
+
