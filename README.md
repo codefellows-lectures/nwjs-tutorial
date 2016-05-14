@@ -13,6 +13,6 @@ _This tutorial is part of a follow-along lecture originally presented by Rick Pa
 1. Fork and clone this repo.
 2. Open repo in editor.
 3. Edit the package.json as follows: 
-  - Add `"start": "nw"` in the "scripts" object.
+  - **Add `"start": "nw"` in the scripts object.**
   ![package.json-line-8](https://cloud.githubusercontent.com/assets/12869788/15266821/9f4c779a-1965-11e6-9e92-140dd0a3b1e2.png)
 
