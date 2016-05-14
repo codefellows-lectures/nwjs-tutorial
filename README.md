@@ -19,7 +19,7 @@ _This tutorial is part of a follow-along lecture originally presented by Rick Pa
   - Append **`"start": "nw"`** to the scripts object.  
 ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)  
 
-  - Append explicit `window` properties after the scripts object:
+  - Optional: append any explicit `window` properties after the scripts object:
   ```javascript
   "window": {
     "title": "Sample NW.js App",
