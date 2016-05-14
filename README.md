@@ -14,5 +14,18 @@ _This tutorial is part of a follow-along lecture originally presented by Rick Pa
 2. Open repo in editor.
 3. Edit the package.json as follows: 
   - Append **`"start": "nw"`** to the scripts object.  
-  ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)
+  ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)  
+  - Append explicit `window` object properties to the package.json:  
+  ```javascript
+  "window": {
+    "title": "Sample NW.js App",
+    "toolbar": false,
+    "always-on-top": true,
+    "fullscreen": false,
+    "width": 700,
+    "height": 350,
+    "resizable": false,
+    "focus": true
+  },
+  ```
 
