@@ -6,19 +6,9 @@
   "scripts": {
 
   },
-  "window": {
-    "title": "JSON to CSV",
-    "toolbar": false,
-    "always-on-top": true,
-    "fullscreen": false,
-    "width": 700,
-    "height": 350,
-    "resizable": false,
-    "focus": true
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codefellows-lectures/nwjs.git"
+    "url": "git+https://github.com/codefellows-lectures/nwjs-tutorial.git"
   },
   "keywords": [
     "nwjs"
