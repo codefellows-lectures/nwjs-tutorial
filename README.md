@@ -13,8 +13,8 @@ this initial documentation, node-v6.1.0).
 1. Fork and clone **this** repo 
 2. `cd nwjs-tutorial`
 3. `npm install nw`
-3. Open in editor.
- ###The following steps will enable you to develop and test not only this app, but **any** app before bundling it up for desktop use.
+4. Open in editor.
+5. ###The following steps will enable you to develop and test not only this app, but **any** app before bundling it up for desktop use.
   - Navigate to `package.json`
   - Append **`"start": "nw"`** to the scripts object.  
 ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)  
