@@ -1,7 +1,8 @@
 # Welcome to this NW.js tutorial! :smiley:
 
-_This tutorial is part of a follow-along lecture originally presented by Rick Patci. Feel free to use this guide   
-to walk through these steps at your leisure._
+Today we will be shipping out our :apple: Mac OSX-developed application to a Win64 OS :computer:
+_Please note: this tutorial is based on an instructional lecture originally presented by Rick Patci. 
+Feel free to use this guide to walk through these steps at your leisure._
 
 ## Your _node_ environment:
 - Please ensure you are using a version of node compatible with the latest NW.js build (at the time of  
@@ -14,7 +15,8 @@ this initial documentation, node-v6.1.0).
 2. `cd nwjs-tutorial`
 3. `npm install nw`
 4. Open in editor.
-5. ####The following steps will enable you to develop and test not only this app, but **any** app before bundling it up for desktop use.
+5. ####The following steps will enable you to develop and test not only this app, but **any** app 
+before bundling it up for desktop use.
   1. Navigate to `package.json`
   2. Append **`"start": "nw"`** to the scripts option.  
 ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)  
@@ -31,6 +33,6 @@ this initial documentation, node-v6.1.0).
     },
     ```  
 
-## Downloading NW.js:  
-- This part coming soon! 
+## Downloading NW.js Binaries:  
+1. In your browser, navigate to [NWjs.io](www.nwjs.io)
 
