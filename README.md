@@ -1,7 +1,7 @@
 # Welcome to this NW.js tutorial! :smiley:
 
 _This tutorial is part of a follow-along lecture originally presented by Rick Patci. Feel free to use this guide   
-to walk through the steps at your leisure._
+to walk through these steps at your leisure._
 
 ## Your _node_ environment:
 - Please ensure you are using a version of node compatible with the latest NW.js build (at the time of  
