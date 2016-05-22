@@ -19,14 +19,14 @@ this initial documentation, node-v6.1.0).
   2. Append **`"start": "nw"`** to the scripts object.  
 ![package.json](https://cloud.githubusercontent.com/assets/12869788/15266877/e828f8ac-1966-11e6-9e03-b99739d24b26.png)  
 
-  3. Optional: append any explicit `window` properties after the scripts object.
+  3. Recommended: append any explicit `window` options after the scripts object.
     ```javascript
     "window": {
       "title": "Sample NW.js App",
       "toolbar": false,
       "fullscreen": false,
       "width": 700,
-      "height": 350,
+      "height": 400,
       "resizable": false
     },
     ```  
