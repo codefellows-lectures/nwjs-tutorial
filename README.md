@@ -1,4 +1,4 @@
-# Welcome to NW.js! :smiley:
+# Welcome to this NW.js tutorial! :smiley:
 
 _This tutorial is part of a follow-along lecture originally presented by Rick Patci. Feel free to use this guide   
 to walk through the steps at your leisure._
