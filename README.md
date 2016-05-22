@@ -33,11 +33,11 @@ this initial documentation, node-v6.1.0).
     ```  
 
 ## Downloading NW.js Binaries:  
-1. In your browser, navigate to www.nwjs.io
-2. We want to specifically build for Windows 64 in this example, which can be found by clicking on the `DOWNLOADS` link:
+**1. In your browser, navigate to www.nwjs.io**  
+**2. We want to specifically build for Windows 64 in this example, which can be found by clicking on `DOWNLOADS`:**  
 ![nwjs home](https://cloud.githubusercontent.com/assets/12869788/15453014/d65fc77e-1fb8-11e6-900f-5a17751f2be5.png)
 
-3. Select the `NORMAL` Windows 64-bit option:
+**3. Select the `NORMAL` Windows 64-bit option:**  
 ![nwjs win64](https://cloud.githubusercontent.com/assets/12869788/15453036/7d7cb0a8-1fb9-11e6-983c-3b90fcac504d.png)
 
 
