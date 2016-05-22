@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background-color: #AAA;
+}
+header {
+  text-align: center;
+  font-weight: bold;
+  background-color: #fcae4e;
+}
+section {
+  display: inline-block;
+  width: 225px;
+  max-width: 33%;
+  height: 333px;
+  padding-top: 10px;
+  margin-top: 15px;
+  background-color: #0BE;
+}
