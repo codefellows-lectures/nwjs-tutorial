@@ -1,6 +1,6 @@
 # Welcome to this NW.js tutorial! :smiley:
 
-Today we will be shipping out our :apple: **Mac** OSX-developed application to a **Win64** OS.  :computer:  
+Today we will be shipping out an example application developed on **Mac** :apple: OSX to a **Win64** OS.  :computer:  
 _Please note: this tutorial is based on an instructional lecture originally presented by Rick Patci.   
 Feel free to use this guide to walk through these steps at your leisure._
 
