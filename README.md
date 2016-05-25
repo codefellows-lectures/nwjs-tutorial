@@ -40,14 +40,14 @@ this initial documentation, node-v6.1.0).
 
 3. **On the resulting page, select the `NORMAL` Windows 64-bit option to begin download:**
   ![nwjs win64](https://cloud.githubusercontent.com/assets/12869788/15453036/7d7cb0a8-1fb9-11e6-983c-3b90fcac504d.png)
-4. Unzip the contents.
-5. Create a new directory (ex: `mkdir sample-nw-v0.1.0`) that will ultimately be the finished product we send off.
-6. Copy all of the extracted contents of the nwjs binaries into this new directory.
-7. Now back in our tutorial app, copy the `index.html` `styles` and `package.json` assets into our new sample dir as well.
-8. Archive or zip these three assets into a `package.nw` file within the new directory.
-9. Remove/delete the index.html, styles and package.json, leaving only the binaries and package.nw
-10. Rename the nw.exe file to an app name of your choosing!
-11. Zip up the entire contents of this new dir - and send away! The end-user unzips, and runs the executable.
+4. Next, unzip the contents. The destination of the zip extracts is not crucial in this step.
+5. Create a new directory (ex: `mkdir sample-nw-v0.1.0`) that will ultimately be the finished product folder we send off to our user. The location of this directory is not crucial, just somewhere you can remember :wink:
+6. Copy all of the extracted contents of the nwjs zip binaries into this new user directory.
+7. Now back in our tutorial directory, copy the `index.html` `styles` and `package.json` assets into our user directory as well. `cp -r index.html styles package.json ../your-path/to/the/user/dir`
+8. Navigating back to the user directory, archive or zip these three assets into a `package.nw` file within the user directory. `zip -r package.nw index.html styles package.json`
+9. Now remove/delete the index.html, styles and package.json from this user directory, leaving only the binaries and the resulting `package.nw` archive.
+10. Rename the nw.exe file to an app name of your choosing! ex: `our-cool-example-app.exe`
+11. We are now ready to bundle this up officially! Zip up the entire contents of this user directory and send away! The end-user unzips, and runs the executable :smile:
 
 
 
