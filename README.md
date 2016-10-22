@@ -43,11 +43,10 @@ this initial documentation, node-v6.1.0).
 4. Next, unzip the contents. The destination of the zip extracts is not crucial in this step.
 5. Create a new directory (ex: `mkdir sample-nw-v0.1.0`) that will ultimately be the finished product folder we send off to our user. The location of this directory is not crucial, just somewhere you can remember :wink:
 6. Copy all of the extracted contents of the nwjs zip binaries into this new user directory.
-7. Now back in our tutorial directory, copy the `index.html` `styles` and `package.json` assets into our user directory as well. `cp -r index.html styles package.json ../your-path/to/the/user/dir`
-8. Navigating back to the user directory, archive or zip these three assets into a `package.nw` file within the user directory. `zip -r package.nw index.html styles package.json`
-9. Now remove/delete the index.html, styles and package.json from this user directory, leaving only the binaries and the resulting `package.nw` archive.
-10. Rename the nw.exe file to an app name of your choosing! ex: `our-cool-example-app.exe`
-11. We are now ready to bundle this up officially! Zip up the entire contents of this user directory and send away! The end-user unzips, and runs the executable :smile:
+7. Now back in our tutorial directory, we need to bundle up our app's files (index.html, styles directory and the package.json) into a package.nw file. `zip -r package.nw index.html styles package.json` within the directory containing these files.
+8. `mv package.nw ../your-path/to/the/user/dir`. The user's directory should now contain our nw.js binaries and the resulting `package.nw` archive.
+9. Rename the nw.exe file to an app name of your choosing! ex: `our-cool-example-app.exe`
+10. We are now ready to bundle this up officially! Zip up the entire contents of this user directory and send away! The end-user unzips, and runs the executable :smile:
 
 
 
