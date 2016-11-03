@@ -14,7 +14,7 @@ this initial documentation, node-v6.1.0).
 
 1. Fork and clone **this** repo 
 2. `cd nwjs-tutorial`
-3. `npm install nw`
+3. `npm i`
 4. Open in editor.
 5. ####The following steps will enable you to develop and test this app before bundling it up for desktop use.
   1. Navigate to `package.json`
